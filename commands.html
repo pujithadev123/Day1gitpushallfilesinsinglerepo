@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Git:It is a open control system(we can't pay money for subscription)and version control system.
+    Github:It is a virtual cloud storage.in which we can store,share,retrive,modify,the data.Here group of people do work collaboratve way.
+    Generally laptop can not communicate with github ,so we should installed git our local,then git is easily communicate with github.
+    We should learn some commands.They are
+    git -v= = it will check wheather the git is installed or not in our laptop(local)
+    git init = Bringing that git to the our project,which project we  want to push/For git initialization.
+    git add . = Bringing that project code into the git/ to add all files which are presented in working directory.
+    git commit -m "meaningful msg" = to give the commit/after bringing the code in git we should save(commit) that code .In double quotes we should mention meaningful infor that should be understandable way.
+    Still now we are working in local.Now to communicate git with github we should mentioned this below command.
+    Before that we should create one repository(folder) in remote(github).
+    git remote add origin "Remote repository location"
+    In github all folders has one parent(top level),and that's name is main ,we can called this main as a main branch ,previously we have master but now it is changed.
+    So to change the branch (master to main),use this command
+    git branch -M main
+    Now it's time to push the code from our local repo to remote repo ,for that use this
+    git push origin main
+    git status =Check the status of directory.
+    cd "filename" = it will use to going to our requ directory(change the directory)
+    ls = list the files(display all files which are presented in our directory)
+    cd.. = Move to up level.  
+    
+    git config--global user.email "pujithagvs12@gmail.com"   
+    git config--global user.password "pujitha456"
+
+    git clone "remote repo path" = Cloning the github(remote repo)whole code in our local machine.
+    git pull origin main = To pull the specific part of the data/code from remote repo to local repo.
+</body>
+</html>
